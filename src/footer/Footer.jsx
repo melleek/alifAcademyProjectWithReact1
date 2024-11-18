@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import FotterLogo from "../assets/icons/footerLogoIcon.png";
 import "./footer.css";
+import Button from "../ui/button/Button";
 
 export default function Footer() {
   return (
@@ -47,7 +48,7 @@ export default function Footer() {
           </a>
           <div className="subscribeBTN">
             <input type="email" placeholder="Enter your email" required />
-            <button>Subscription</button>
+            <Button />
           </div>
         </div>
       </div>

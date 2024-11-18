@@ -33,16 +33,6 @@ a {
     border: 1px black;
     padding-left: 10px;
   }
-  button {
-    width: 127px;
-    height: 50px;
-    font-size: 16px;
-    font-weight: 400;
-    background-color: rgba(207, 111, 73, 1);
-    color: white;
-    border-radius: 6px;
-    border: 1px solid rgba(207, 111, 73, 1);
-  }
 }
 
 .footerBottom {
