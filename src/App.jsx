@@ -1,8 +1,12 @@
 import "./App.css";
+import Footer from "./footer/Footer";
 
 function App() {
-  return <>
-  </>;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }
 
 export default App;

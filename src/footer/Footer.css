@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body,
+.footer {
+  font-family: "Roboto", sans-serif;
+}
+.footerUp {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.blockPages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a {
+  color: rgb(105, 105, 105);
+}
+
+.subscribeBTN {
+  display: flex;
+  gap: 5px;
+
+  input {
+    width: 241px;
+    height: 48px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    border: 1px black;
+    padding-left: 10px;
+  }
+  button {
+    width: 127px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(207, 111, 73, 1);
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(207, 111, 73, 1);
+  }
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footerBotoomPartOne {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerBotoomPartTwo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerBotoomPartTwo svg {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+.instagram:hover {
+  color: #f740d6;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.linkedin:hover {
+  color: #0077b5;
+}
+
+@media (min-width: 640px) {
+  .footerBottom {
+    max-width: 640px; /* Small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .footerBottom {
+    max-width: 768px; /* Medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerBottom {
+    max-width: 1024px; /* Large screens */
+  }
+}
