@@ -9,6 +9,8 @@
   border: 1px solid rgba(207, 111, 73, 1);
   cursor: pointer;
   transition: all 0.3s ease;
+  position: relative; /* Убедитесь, что кнопка не скрыта */
+  z-index: 10;
 }
 
 .custom-button:hover {

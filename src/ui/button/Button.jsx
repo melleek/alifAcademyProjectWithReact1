@@ -1,12 +1,7 @@
 import React from "react";
 import "./button.css";
 
-export default function Button({
-  text = "Subscription",
-  onClick,
-  style = {},
-  className = "",
-}) {
+export default function Button({ text, onClick, style = {}, className = "" }) {
   return (
     <button
       className={`custom-button ${className}`}
