@@ -1,7 +1,12 @@
 import React from "react";
-import "./button.css";
+import "./buttonBrick.css";
 
-export default function Button({ text, onClick, style = {}, className = "" }) {
+export default function ButtonBrick({
+  text,
+  onClick,
+  style = {},
+  className = ""
+}) {
   return (
     <button
       className={`custom-button ${className}`}

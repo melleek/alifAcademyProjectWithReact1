@@ -1,38 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body,
-.footer {
-  font-family: "Roboto", sans-serif;
+body {
+  font-family: "Roboto", "Helvetica Neue";
 }
+
 .footerUp {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: start;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 64px 80px;
 }
+
 .blockPages {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
 }
 
-a {
-  color: rgb(105, 105, 105);
+.blockPages a {
+  color: #2a2c1f;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
 }
 
 .subscribeBTN {
   display: flex;
   gap: 5px;
+}
 
-  input {
-    width: 241px;
-    height: 48px;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
-    border-radius: 6px;
-    border: 1px black;
-    padding-left: 10px;
-  }
+input {
+  width: 241px;
+  height: 48px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  border: 1px black;
+  padding-left: 10px;
 }
 
 .footerBottom {
@@ -80,20 +86,29 @@ a {
   color: #0077b5;
 }
 
-@media (min-width: 640px) {
-  .footerBottom {
-    max-width: 640px; /* Small screens */
-  }
+.footerBottom {
+  padding: 25px 180px;
+  background-color: #f5f5f2;
 }
 
-@media (min-width: 768px) {
-  .footerBottom {
-    max-width: 768px; /* Medium screens */
-  }
+.blockPagesEnd {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-@media (min-width: 1024px) {
-  .footerBottom {
-    max-width: 1024px; /* Large screens */
-  }
+.blockPagesEnd p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #65665c;
+  margin: 0;
+}
+
+.blockPagesEnd span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #65665c;
+  margin: 0;
 }

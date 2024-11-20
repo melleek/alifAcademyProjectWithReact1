@@ -4,16 +4,14 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import FotterLogo from "../assets/icons/footerLogoIcon.png";
-import "./footer.css";
-import Button from "../ui/button/Button";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import ButtonBrick from "../ui/buttonBrick/ButtonBrick";
+import { ToastContainer } from "react-toastify";
 
 export default function Footer() {
   const handleSubscribe = () => {
     console.log("Button clicked!");
     toast.success("Проверьте вашу почту, мы отправили вам письмо.", {
-      position: toast.POSITION.TOP_CENTER,
+      position: toast.POSITION.TOP_CENTER
     });
   };
 
@@ -58,7 +56,7 @@ export default function Footer() {
             </a>
             <div className="subscribeBTN">
               <input type="email" placeholder="Enter your email" required />
-              <Button
+              <ButtonBrick
                 text="Subscribe"
                 onClick={() => {
                   console.log("Button prop works!");
@@ -67,6 +65,7 @@ export default function Footer() {
               />
             </div>
           </div>
+          <span>By subscribing you agree to with our Privacy Policy</span>
         </div>
         <div className="footerBottom">
           <div className="footerBotoomPartOne">
@@ -81,7 +80,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      {/* Контейнер для уведомлений */}
       <ToastContainer autoClose={3000} hideProgressBar={true} />
     </>
   );

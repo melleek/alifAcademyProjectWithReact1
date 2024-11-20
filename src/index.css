@@ -1,0 +1,8 @@
+@import url("./footer/Footer.css");
+@import url("./sections/sections.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
