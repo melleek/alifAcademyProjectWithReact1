@@ -1,11 +1,13 @@
 import "./App.css";
 import Footer from "./footer/Footer";
-import { Sections } from "./sections/Sections";
+import FirstSection from "./sections/section_1/Section";
+import SecondSection from "./sections/section_2/Section";
 
 function App() {
   return (
     <>
-      <Sections />
+      <FirstSection />
+      <SecondSection />
       <Footer />
     </>
   );
