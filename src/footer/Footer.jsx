@@ -4,8 +4,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import FotterLogo from "../assets/icons/footerLogoIcon.png";
-import ButtonBrick from "../ui/buttonBrick/ButtonBrick";
 import { ToastContainer } from "react-toastify";
+import { ButtonBrick } from "../ui/buttonBrick/ButtonBrick";
 
 export default function Footer() {
   const handleSubscribe = () => {
@@ -64,8 +64,10 @@ export default function Footer() {
                 }}
               />
             </div>
+            <span className="spanFooterEnd">
+              By subscribing you agree to with our Privacy Policy
+            </span>
           </div>
-          <span>By subscribing you agree to with our Privacy Policy</span>
         </div>
         <div className="footerBottom">
           <div className="footerBotoomPartOne">

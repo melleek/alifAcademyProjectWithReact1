@@ -1,13 +1,16 @@
+import { useEffect } from "react";
 import "./App.css";
 import Footer from "./footer/Footer";
-import FirstSection from "./sections/section_1/Section";
-import SecondSection from "./sections/section_2/Section";
+import { Sections } from "./sections/Sections";
 
 function App() {
+  useEffect(() => {
+    console.log("salom");
+  }, []);
   return (
     <>
-      <FirstSection />
-      <SecondSection />
+      <h1>salom</h1>
+      <Sections />
       <Footer />
     </>
   );

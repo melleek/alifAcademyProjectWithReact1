@@ -1,19 +1,28 @@
 .sectionProducts {
   background-color: #f5f5f2;
+  padding: 80px;
 }
 
 .cardContent {
   background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .cardContainer {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
 }
 
 .cardTextContent {
-    padding: 24px;
+  padding: 24px;
 }
 
+.allCardContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 31px;
+}

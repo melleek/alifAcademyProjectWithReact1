@@ -1,34 +1,32 @@
 .secondBtn {
-    border: none;
-    background: none;
-    width: 130px;
-    height: 40px;
-    color: #2A2C1F;
+  border: none;
+  background: none;
+  width: 130px;
+  height: 40px;
+  color: #2a2c1f;
 
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-skip-ink: none;
 }
 
 .firstBtn {
-    width: 192px;
-    height: 50px;
-    color: #2A2C1F;
-    border: 1px solid #E7E8E3;
-    box-shadow: 0px 2px 4px 0px #00000014;
-    background-color: #FFFFFF;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
+  width: 192px;
+  height: 50px;
+  color: #2a2c1f;
+  border: 1px solid #e7e8e3;
+  box-shadow: 0px 2px 4px 0px #00000014;
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 }
-.btns{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }

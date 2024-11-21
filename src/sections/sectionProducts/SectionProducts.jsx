@@ -1,17 +1,8 @@
 import { useState } from "react";
 import { data } from "../../api/api";
-import {
-  FaBath,
-  FaBed,
-  FaMapMarkerAlt,
-  FaPen,
-  FaRuler,
-  FaRulerVertical,
-  FaSquare,
-  FaTrash
-} from "react-icons/fa";
-import { BiRuler } from "react-icons/bi";
+import { FaBath, FaBed, FaMapMarkerAlt, FaPen, FaTrash } from "react-icons/fa";
 import { RxRulerSquare } from "react-icons/rx";
+import ButtonS from "../../ui/buttons/Button";
 
 export function SectionProducts() {
   const [todos, setTodos] = useState(data);
@@ -20,9 +11,9 @@ export function SectionProducts() {
     <section className="sectionProducts">
       <img src="../assets/icons/iconsCr.png" alt="" />
       <div className="cardContainer">
-        {todos.map((elem) => {
-          return (
-            <>
+        <div className="allCardContent">
+          {todos.map((elem) => {
+            return (
               <div key={elem.id} className="cardContent">
                 <img src={elem.img} alt="" />
                 <div className="cardTextContent">
@@ -44,9 +35,10 @@ export function SectionProducts() {
                   </div>
                 </div>
               </div>
-            </>
-          );
-        })}
+            );
+          })}
+        </div>
+        <ButtonS />
       </div>
     </section>
   );
