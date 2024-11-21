@@ -1,6 +1,6 @@
 import home from "../assets/icons/home.svg";
-// import list from "../../assets/icons/list.svg";
-// import key from "../../assets/icons/key.svg";
+import list from "../assets/icons/list.svg";
+import key from "../assets/icons/key.svg";
 
 export const data = [
   {
@@ -63,16 +63,16 @@ export const cardInfo = [
   },
   {
     id: 2,
-    icon: home,
-    title: "Find property",
+    icon: list,
+    title: "Make a deal",
     description:
-      "Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non."
+      "Pellentesque suscipit mauris. Nam dictum, erat a volutpat varius, urna nisi sollicitudin orci, sagittis facilisis odio tortor ac mi."
   },
   {
     id: 3,
-    icon: home,
-    title: "Find property",
+    icon: key,
+    title: "Get your keys",
     description:
-      "Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non."
+      "Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum. Duis semper, metus vitae fermentum consequat."
   }
 ];
