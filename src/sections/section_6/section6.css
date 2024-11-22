@@ -1,0 +1,43 @@
+.section-6 {
+   background-color: rgba(245, 245, 242, 1);
+   font-family: "Roboto", "Helvetica Neue";
+   margin: 0;
+}
+
+.sectionTitle {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sectionDescription {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;   
+    color: rgba(101, 102, 92, 1); 
+    margin-top: 25px;
+}
+
+.locationCartsContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+.cartIcon {
+    width: 20px;
+    height: 12px;
+    margin-top: 12px;
+}
+
+.locationCartsContainer2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.cartBtn {
+    margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+.banner {
+    width: 85vw;
+    height: 465px;
+    background: rgba(101, 102, 92, 1);
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    margin-top: 100px;
+    padding-top: 96px;
+}
+
+.bannerIcon {
+    width: 48px;
+    height: 48px;
+    background-color: beige;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+
+.bannerTitle {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 13px;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.bannerDescription {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(231, 232, 227, 1);
+    margin-top: 30px;    
+}
+
+.bannerBtn {
+    background-color: rgba(207, 111, 73, 1);
+    width: 137px;
+    height: 50px;
+    border-radius: 6px 0px 0px 0px;    
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 34px;
+    cursor: pointer;
+}
