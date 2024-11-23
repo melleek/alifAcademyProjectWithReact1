@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { SubNavbar } from "./components/subNavbar/SubNavbar";
+import { SubNavbar } from "./components/SubNavbar";
 import logo from "../assets/icons/footerLogoIcon.png";
 import { ButtonBrick } from "../ui/buttonBrick/ButtonBrick";
 
