@@ -1,0 +1,92 @@
+.cardContent {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardContent:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cardTextContent {
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contentIcons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.containerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editDeleteContent {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.contentIcons p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #65665c;
+}
+
+.locationContent {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #65665c;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerCard {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: #2a2c1f;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.headerCard p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+.isCompleted {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+
+  cursor: pointer;
+  background-color: #07b407;
+}

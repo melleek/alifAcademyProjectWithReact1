@@ -1,0 +1,43 @@
+.sectionPosts {
+  background-color: #f5f5f2;
+
+  padding: 128px 80px;
+}
+
+.viewAllButtom {
+  padding: 13px 25px;
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #2a2c1f;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.headerforText {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.headerforText div {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.postsContainer {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.mainSection {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.infoCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+
+  text-align: center;
+}

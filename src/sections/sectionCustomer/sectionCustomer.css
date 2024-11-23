@@ -1,0 +1,12 @@
+.sectionCustomer {
+  padding: 420px 80px 160px 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.containerCustomerCards {
+  display: flex;
+  gap: 32px;
+}

@@ -1,0 +1,35 @@
+.banner {
+  background: rgba(101, 102, 92, 1);
+  margin: 0 auto;
+  border-radius: 24px;
+  padding: 96px 0px;
+  margin-top: 128px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+
+
+.bannerIcon {
+  background-color: beige;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.bannerTitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bannerDescription {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #e7e8e3;
+}

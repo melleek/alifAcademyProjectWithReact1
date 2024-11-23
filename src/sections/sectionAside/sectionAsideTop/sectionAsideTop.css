@@ -1,0 +1,26 @@
+.sectionFirst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 128px 80px;
+}
+
+.asideLeftText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.headerForAside {
+  width: 453px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.headerForAside :nth-child(2) {
+  width: 520px;
+}

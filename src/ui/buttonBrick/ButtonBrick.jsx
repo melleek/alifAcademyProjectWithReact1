@@ -3,7 +3,7 @@ import "./buttonBrick.css";
 
 export const ButtonBrick = ({ text, onClick, style = {}, className = "" }) => (
   <button
-    className={`custom-button ${className}`}
+    className={`customButton ${className}`}
     style={style}
     onClick={onClick}
   >

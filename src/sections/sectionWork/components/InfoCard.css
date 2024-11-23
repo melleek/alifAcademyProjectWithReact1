@@ -1,0 +1,39 @@
+.infoCard {
+  background-color: #ffffff;
+  border: 1px solid #e7e8e3;
+  border-radius: 16px;
+  padding: 49px 33px;
+  box-shadow: 0px 2px 4px 0px #00000014;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infoCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.infoCardTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: center;
+  color: #2a2c1f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.infoCardTitle p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #65665c;
+}

@@ -1,0 +1,73 @@
+.leftSideNav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.leftSideNav p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #222222;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.leftSideNav p:hover {
+  transform: scale(1.05);
+}
+
+.iconsSearchNav {
+  width: 20px;
+  height: 20px;
+}
+
+.buttonWhite {
+  padding: 9px 21px;
+  color: #2a2c1f;
+  border: 1px solid #e7e8e3;
+  box-shadow: 0px 2px 4px 0px #00000014;
+  background-color: transparent;
+
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttonWhite:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.rightSideNav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.secLeftRightSide {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 80px;
+}

@@ -1,12 +1,5 @@
 .sectionProducts {
   background-color: #f5f5f2;
-  padding: 80px;
-}
-
-.cardContent {
-  background-color: #fff;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .cardContainer {
@@ -16,8 +9,21 @@
   gap: 80px;
 }
 
-.cardTextContent {
-  padding: 24px;
+.headerContentPro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.containerProducts {
+  padding: 128px 80px;
+  padding-bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
 }
 
 .allCardContent {
@@ -25,4 +31,14 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 31px;
+}
+
+.rightKvIcons {
+  position: absolute;
+  right: 0;
+}
+
+.leftKvIcons {
+  position: absolute;
+  left: 0;
 }

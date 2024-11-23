@@ -1,4 +1,6 @@
+@import url("./sectionPosts/sectionPosts.css");
+@import url("./sectionLocation/sectionLocation.css");
+@import url("./sectionCustomer/sectionCustomer.css");
 @import url("./sectionProducts/sectionPtoducts.css");
-@import url("./section_6/section6.css");
-@import url("./section_6/components/location-cards.css");
-@import url("./section_6/components/banner.css");
+@import url("../sections/sectionWork/sectionWork.css");
+@import url("../sections/sectionAside/sectionAside.css");

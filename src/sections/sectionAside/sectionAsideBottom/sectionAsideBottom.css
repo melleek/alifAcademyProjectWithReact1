@@ -1,0 +1,34 @@
+.sectionAsideBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0px 80px;
+  padding-bottom: 128px;
+}
+
+.asideRightText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.headerForAsideBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.headerForAsideBottom :nth-child(1) {
+  width: 485px;
+}
+
+.headerForAsideBottom :nth-child(2) {
+  width: 600px;
+}
+
+.infoCardAsideContent {
+  display: flex;
+  justify-content: space-between;
+}
